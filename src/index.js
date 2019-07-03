@@ -12,7 +12,7 @@ module.exports = function getLoveTrianglesCount(preferences = []) {
     // Spichonee A to love Spichonee on (A - 1) index of preferences array, let's call preferences[A - 1] equals B
     // In order to complete the love triangle,
     // Spichonee B is required to love Spichonee on (B - 1) index of preferences array
-    // and preferences[B - 1] value must be equal to (i + 1) which is the position (not index) of Spichonee A
+    // and preferences[B - 1] value must be equal to (i + 1) which is the lover of Spichonee A
     // In general (i + 1) gives us lover of current Spichonee,
     // preferences[prefernces[i] - 1] gives us the Spichonee which is loved by current Spichonee
 
